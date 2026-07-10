@@ -122,6 +122,8 @@ hr.rule-double{ border:0; border-top:3px double var(--rule); }
 .pillar li .s{ font-style:italic; color:var(--ink-2); font-size:.88rem; white-space:nowrap; }
 .pillar li.published .s{ font-family:var(--sc); font-style:normal; font-variant:small-caps; text-transform:lowercase; letter-spacing:.06em; color:var(--indigo); }
 .toc-footnote{ margin-top:1.8rem; font-size:.88rem; font-style:italic; color:var(--ink-2); }
+.pillar li.blind .t{ filter:blur(3.5px); opacity:.55; user-select:none; font-style:italic; }
+.pillar li.blind .s{ opacity:.75; }
 
 /* ============ NOTICE (the invitation) ============ */
 .notice{ margin:3.4rem 0; }
